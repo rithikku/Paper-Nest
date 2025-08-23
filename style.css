@@ -1,0 +1,210 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* Front Code  */
+.card {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.card-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  padding: 0;
+  margin: 0;
+}
+
+.list-item {
+  display: flex;
+}
+
+/* Base card style */
+.card-list li > a {
+  flex: 1;
+  text-decoration: none;
+  border-radius: 18px;
+  padding: 50px 40px;
+  text-align: center;
+  color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-list li > a:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+}
+
+/* Text styles */
+.course {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.course-item {
+  font-size: 16px;
+}
+
+/* Distinct background gradients for each semester */
+.first-sem-card {
+  background: linear-gradient(135deg, #4facfe, #00f2fe); /* Blue */
+}
+
+.second-sem-card {
+  background: linear-gradient(135deg, #43e97b, #38f9d7); /* Green */
+}
+
+.third-sem-card {
+  background: linear-gradient(135deg, #ff6a00, #ee0979); /* Orange-Pink */
+}
+
+.fourth-sem-card {
+  background: linear-gradient(135deg, #8e2de2, #4a00e0); /* Purple */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .course {
+    font-size: 20px;
+  }
+  .course-item {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-list {
+    grid-template-columns: 1fr; /* Stack cards on small screens */
+  }
+  .course {
+    font-size: 18px;
+  }
+  .course-item {
+    font-size: 14px;
+  }
+}
+
+
+/* First Semester  */
+.first-semester {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  padding: 30px 25px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.first-semester:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+}
+
+.first-sem-heading {
+  font-size: 26px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.first-sem-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.first-sem-list li {
+  font-size: 18px;
+  color: #444;
+  background: #f5f7fa;
+  margin: 10px 0;
+  padding: 12px 18px;
+  border-radius: 12px;
+  transition: background 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.first-sem-list li:hover {
+  background: #e6eefc;
+  transform: translateX(5px);
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .first-semester {
+    padding: 20px 15px;
+  }
+
+  .first-sem-heading {
+    font-size: 22px;
+  }
+
+  .first-sem-list li {
+    font-size: 16px;
+    padding: 10px 14px;
+  }
+}
+
+/* Header Code  */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.container h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.illustration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.illustration img {
+  width: 250px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px; /* optional smooth corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* optional shadow */
+}
+
+@media (max-width: 768px) {
+  .container h1 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+  }
+
+  .illustration img {
+    width: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .illustration img {
+    width: 150px;
+  }
+}
