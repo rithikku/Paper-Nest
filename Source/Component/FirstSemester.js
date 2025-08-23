@@ -4,7 +4,7 @@ const FirstSemester = () => {
             <h2 className="first-sem-heading">FIRST SEMESTER PAPER</h2>
             <ul className="first-sem-list">
                  <li>
-                    <a href="https://www.aktuonline.com/papers/mca-1-sem-fundamental-of-computers-and-emerging-technologies-kca101-mar-2024.pdf" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1G8VrSoD0vTsFiutgNVoeqy33bojM_wlL/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
                         Fundamental of Computers & Emerging Technologies
                     </a>
                 </li>
