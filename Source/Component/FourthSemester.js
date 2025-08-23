@@ -1,7 +1,7 @@
 const FourthSemester = () => {
     return (
         <div className="first-semester">
-            <h2 className="first-sem-heading">Third Semester Paper</h2>
+            <h2 className="first-sem-heading">FOURTH SEMESTER PAPER</h2>
             <ul className="first-sem-list">
                 <li>Privacy & Security in Online Social Media</li>
                 <li>Soft Computing</li>

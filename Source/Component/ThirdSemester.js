@@ -1,7 +1,7 @@
 const ThirdSemester = () => {
     return (
         <div className="first-semester">
-            <h2 className="first-sem-heading">Third Semester Paper</h2>
+            <h2 className="first-sem-heading">THIRD SEMESTER PAPER</h2>
             <ul className="first-sem-list">
                 <li>Python Programming</li>
                 <li>Software Engineering</li>
