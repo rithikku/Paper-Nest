@@ -27,12 +27,12 @@ const Front = () => {
       </ul>
 
       <div className="footer">
-        <p className="disclaimer">Disclaimer: These papers are shared for educational purposes only. All rights belong to the respective universities.</p>
-         <p className="copyright">© {new Date().getFullYear()} MCA Previous Year Papers. All rights reserved.</p>
+        <p className="disclaimer">DISCLAIMER: These PAPERS Are Shared For EDUCATIONAL Purposes Only. All Rights Belong To The AKTU</p>
+         <p className="copyright">© {new Date().getFullYear()} MCA Previous Year Papers. All Rights Reserved</p>
           <p className="developer">
-          Developed by <strong>Rithik</strong> |{" "}
+          Developed by <strong>Rithik 🚀</strong> |{" "}
           <a
-            href="https://www.linkedin.com/in/your-linkedin-id"
+            href="https://www.linkedin.com/in/rithik-kumar-%F0%9F%9A%80-547074231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"
             rel="noopener noreferrer">
             LinkedIn
