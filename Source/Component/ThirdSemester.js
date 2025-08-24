@@ -5,67 +5,67 @@ const ThirdSemester = () => {
             <ul className="first-sem-list">
                 <li>
                     <a href="" target="_blank" rel="noopener noreferrer">
-                        Python Programming
+                        BMC301 - Python Programming
                     </a>
                 </li>
                 <li>
                     <a href="https://drive.google.com/file/d/1Ym6J4gSkIdIyZgMWgRwYnSadNBslWlMv/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                        Software Engineering
+                        BMC302 - Software Engineering
                     </a>
                 </li>
                 <li>
                     <a href="https://drive.google.com/file/d/1k-YHEDMgIxSZ1_VE4TnFQMHPq0vYOSuc/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
-                        Computer Network
+                        BMC303 - BMC303 - Computer Network
                     </a>
                 </li>
                 <li>
                     <a href="" target="_blank" rel="noopener noreferrer">
-                        Cryptography & Network Security
+                        BMC011 - Cryptography & Network Security
                     </a>
                 </li>
                 <li>
                     <a href="" target="_blank" rel="noopener noreferrer">
-                        Data Warehousing & Data Mining
+                        BMC012 - Data Warehousing & Data Mining
                     </a>
                 </li>
                 <li>
                     <a href="" target="_blank" rel="noopener noreferrer">
-                        Software Project Management
+                        BMC013 - Software Project Management
                     </a>
                 </li>
                 <li>
                     <a href="" target="_blank" rel="noopener noreferrer">
-                        Cloud Computing
+                        BMC014 - Cloud Computing
                     </a>
                 </li>
                 <li>
                     <a href="" target="_blank" rel="noopener noreferrer">
-                        Compiler Design
+                        BMC015 - Compiler Design
                     </a>
                 </li>
                 <li>
                     <a href="" target="_blank" rel="noopener noreferrer">
-                        Artificial Intelligence
+                        BMC021 - Artificial Intelligence
                     </a>
                 </li>
                 <li>
                     <a href="" target="_blank" rel="noopener noreferrer">
-                        Big Data
+                        BMC022 - Big Data
                     </a>
                 </li>
                 <li>
                     <a href="" target="_blank" rel="noopener noreferrer">
-                        Simulation & Modeling
+                        BMC023 - Simulation & Modeling
                     </a>
                 </li>
                 <li>
                     <a href="" target="_blank" rel="noopener noreferrer">
-                        Software Testing & Quality Assurance
+                        BMC024 - Software Testing & Quality Assurance
                     </a>
                 </li>
                 <li>
                     <a href="" target="_blank" rel="noopener noreferrer">
-                        Digital Image Processing
+                        BMC025 - Digital Image Processing
                     </a>
                 </li>
             </ul>
