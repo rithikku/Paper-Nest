@@ -6,26 +6,52 @@ import Header from './Source/Component/Header';
 
 import FirstSemester from './Source/Component/FirstSemester';
 import SecondSemester from './Source/Component/SecondSemester';
-import ThirdSemester from './Source/Component/ThirdSemester';   
+import ThirdSemester from './Source/Component/ThirdSemester';
 import FourthSemester from './Source/Component/FourthSemester';
+import Error from './Source/Component/Error';
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 
 const App = () => {
     return (
-        <Router>
-            <Header/>
-            <Routes>
-                <Route path="/" element={<Front />} />
-                <Route path="/first-semester" element={<FirstSemester />} />
-                <Route path="/second-semester" element={<SecondSemester />} />
-                <Route path="/third-semester" element={<ThirdSemester />} />
-                <Route path="/fourth-semester" element={<FourthSemester />} />
-            </Routes>
-        </Router>
-    );
+        <div>
+            <Header />
+            <Outlet />
+        </div>
+    )
 };
 
+const appRouter = createBrowserRouter([
+    {
+        path: "/",
+        element: <App />,
+        children: [
+            {
+                path: "/",
+                element: <Front/>
+            },
+            {
+                path: "/first-semester",
+                element: <FirstSemester />
+            },
+            {
+                path: "/second-semester",
+                element: <SecondSemester />
+            },
+            {
+                path: "/third-semester",
+                element: <ThirdSemester />
+            },
+            {
+                path: "/fourth-semester",
+                element: <FourthSemester />
+            },
+        ],
+        errorElement : <Error/>
+    }
+])
+
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+root.render(<RouterProvider router={appRouter} />);
