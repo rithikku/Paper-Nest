@@ -1,4 +1,4 @@
-import { C_URL, CO_URL, DISCRETE_URL, FUNDAMENTAL_URL, PC_URL } from "../Utils/constants";
+import { C_URL, CO_URL, CYBER_SECURITY_URL, DISCRETE_URL, FUNDAMENTAL_URL, PC_URL } from "../Utils/constants";
 
 const FirstSemester = () => {
     return (
@@ -7,27 +7,32 @@ const FirstSemester = () => {
             <ul className="first-sem-list">
                  <li>
                     <a href={FUNDAMENTAL_URL} target="_blank" rel="noopener noreferrer">
-                        Fundamental of Computers & Emerging Technologies
+                        BMC101 - Fundamental of Computers & Emerging Technologies
                     </a>
                 </li>
                  <li>
                     <a href={C_URL} target="_blank" rel="noopener noreferrer">
-                        Problem Solving using C
+                        BMC102 - Problem Solving using C
                     </a>
                 </li>
                  <li>
                     <a href={PC_URL} target="_blank" rel="noopener noreferrer">
-                        Principles of Management & Communication
+                        BMC103 - Principles of Management & Communication
                     </a>
                 </li>
                  <li>
                     <a href={DISCRETE_URL} target="_blank" rel="noopener noreferrer">
-                        Discrete Mathematics
+                        BMC104 - Discrete Mathematics
                     </a>
                 </li>
                  <li>
                     <a href={CO_URL} target="_blank" rel="noopener noreferrer">
-                        Computer Organization & Architecture
+                        BMC105 - Computer Organization & Architecture
+                    </a>
+                </li>
+                 <li>
+                    <a href={CYBER_SECURITY_URL} target="_blank" rel="noopener noreferrer">
+                        BMC106 - Cyber Security
                     </a>
                 </li>
             </ul>
