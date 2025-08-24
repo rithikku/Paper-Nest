@@ -25,6 +25,20 @@ const Front = () => {
           </Link>
         </li>
       </ul>
+
+      <div className="footer">
+        <p className="disclaimer">Disclaimer: These papers are shared for educational purposes only. All rights belong to the respective universities.</p>
+         <p className="copyright">© {new Date().getFullYear()} MCA Previous Year Papers. All rights reserved.</p>
+          <p className="developer">
+          Developed by <strong>Rithik</strong> |{" "}
+          <a
+            href="https://www.linkedin.com/in/your-linkedin-id"
+            target="_blank"
+            rel="noopener noreferrer">
+            LinkedIn
+          </a>
+        </p>
+      </div>
     </div>
   );
 };
