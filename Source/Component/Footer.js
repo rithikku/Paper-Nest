@@ -1,3 +1,5 @@
+import { LINKDIN_URL } from "../Utils/constants";
+
 const Footer = () => {
   return (
     <div className="footer">
@@ -10,7 +12,7 @@ const Footer = () => {
       <p className="developer">
         Developed by <strong>Rithik 🚀</strong> |{" "}
         <a
-          href="https://www.linkedin.com/in/rithik-kumar-%F0%9F%9A%80-547074231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          href={LINKDIN_URL}
           target="_blank"
           rel="noopener noreferrer"
         >

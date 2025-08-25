@@ -1,4 +1,5 @@
 import { useRouteError } from "react-router-dom";
+import { ERROR_URL } from "../Utils/constants";
 
 const Error = () => {
     const err = useRouteError();
@@ -10,7 +11,7 @@ const Error = () => {
                 <p className="oops">Something Went Wrong Page {err.statusText}</p>
                 <p className="message">{err.error.message}</p>
             </div>
-             <img src="https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif"></img>
+             <img src={ERROR_URL}></img>
         </div>
     )
 }

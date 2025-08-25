@@ -1,3 +1,5 @@
+import { COMP_NETWORK, SOFTWARE_ENG } from "../Utils/constants";
+
 const ThirdSemester = () => {
     return (
         <div className="first-semester">
@@ -9,12 +11,12 @@ const ThirdSemester = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="https://drive.google.com/file/d/1Ym6J4gSkIdIyZgMWgRwYnSadNBslWlMv/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href={SOFTWARE_ENG} target="_blank" rel="noopener noreferrer">
                         BMC302 - Software Engineering
                     </a>
                 </li>
                 <li>
-                    <a href="https://drive.google.com/file/d/1k-YHEDMgIxSZ1_VE4TnFQMHPq0vYOSuc/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                    <a href={COMP_NETWORK} target="_blank" rel="noopener noreferrer">
                         BMC303 - BMC303 - Computer Network
                     </a>
                 </li>
