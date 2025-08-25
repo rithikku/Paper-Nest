@@ -1,7 +1,7 @@
-import { ARTIFICIAL, BIG_DATA, CLOUD_COMPUTING, COMP_NETWORK, COMPILER_DESIGN, CRYPTOGRAPHY, DATA_WAREHOUSE, DIGITAL, SIMULATION, SOFTWARE_ENG, SOFTWARE_PROJECT_MANAGEMENT, SOFTWARE_TESTING } from "../Utils/constants";
+import { ARTIFICIAL, BIG_DATA, CLOUD_COMPUTING, COMP_NETWORK, COMPILER_DESIGN, CRYPTOGRAPHY, DATA_WAREHOUSE, DIGITAL, PYTHON, SIMULATION, SOFTWARE_ENG, SOFTWARE_PROJECT_MANAGEMENT, SOFTWARE_TESTING } from "../Utils/constants";
 
 export const thirdSemesterSubject = [
-    {code: "BMC301", title: "Python Programming", url: "" },
+    {code: "BMC301", title: "Python Programming", url: PYTHON},
     { code: "BMC302", title: "Software Engineering", url: SOFTWARE_ENG},
     {code : "BMC303", title: "Computer Network", url: COMP_NETWORK},
     {code : "BMC011", title: "Cryptography & Network Security", url: CRYPTOGRAPHY},
