@@ -17,3 +17,9 @@ export const SOFTWARE_PROJECT_MANAGEMENT = "https://drive.google.com/file/d/1afY
 export const DATA_WAREHOUSE = "https://drive.google.com/file/d/13UgADkwHIAZcWL2F6406zS324yftjSy5/view?usp=drive_link";
 export const CRYPTOGRAPHY = "https://drive.google.com/file/d/14RdEJWL5KF7EI-8Eq0g9mK0cM4txIAiI/view?usp=drive_link";
 export const CLOUD_COMPUTING = "https://drive.google.com/file/d/1Ie0GxBhOiQpnv58d8HHSXx2nlLGtkkcj/view?usp=drive_link";
+export const ARTIFICIAL = "https://drive.google.com/file/d/1E_vZLHmg-3nhS9k2-ITiQKH_T2e7KHy8/view?usp=drive_link";
+export const BIG_DATA = "https://drive.google.com/file/d/1ycQjNqSZVn_8wQXskgDTwc8woViOdZ2R/view?usp=drive_link";
+export const DIGITAL = "https://drive.google.com/file/d/17hwWbStQQDMGhhrDN3_tRaGrTNbaIULg/view?usp=drive_link";
+export const PYTHON = "https://drive.google.com/file/d/1Utod7uiPKemj6zMXc4cn2cfe9CvZHxrX/view?usp=drive_link";
+export const SIMULATION = "https://drive.google.com/file/d/18n7-QtHrlNIL-f7vHcqk780fv4zQRi7T/view?usp=drive_link";
+export const SOFTWARE_TESTING = "https://drive.google.com/file/d/142nL1-YKrdLKnrMT6VAZ7vbXVWLWBvbF/view?usp=drive_link";
