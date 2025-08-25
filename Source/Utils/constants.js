@@ -11,5 +11,9 @@ export const CYBER_SECURITY_URL = "https://drive.google.com/file/d/1YHJLobBz1l6y
 
 
 export const SOFTWARE_ENG = "https://drive.google.com/file/d/1Ym6J4gSkIdIyZgMWgRwYnSadNBslWlMv/view?usp=sharing";
-export const COMP_NETWORK = "https://drive.google.com/file/d/1k-YHEDMgIxSZ1_VE4TnFQMHPq0vYOSuc/view?usp=drive_link"
-
+export const COMP_NETWORK = "https://drive.google.com/file/d/1k-YHEDMgIxSZ1_VE4TnFQMHPq0vYOSuc/view?usp=drive_link";
+export const COMPILER_DESIGN = "https://drive.google.com/file/d/1nt5yCWHhhZJRjhTSssd4oL1f6VAFsQoq/view?usp=drive_link";
+export const SOFTWARE_PROJECT_MANAGEMENT = "https://drive.google.com/file/d/1afYuNbmnLr1oSL8ExHCEBsI07nlQPqUh/view?usp=drive_link";
+export const DATA_WAREHOUSE = "https://drive.google.com/file/d/13UgADkwHIAZcWL2F6406zS324yftjSy5/view?usp=drive_link";
+export const CRYPTOGRAPHY = "https://drive.google.com/file/d/14RdEJWL5KF7EI-8Eq0g9mK0cM4txIAiI/view?usp=drive_link";
+export const CLOUD_COMPUTING = "https://drive.google.com/file/d/1Ie0GxBhOiQpnv58d8HHSXx2nlLGtkkcj/view?usp=drive_link";
