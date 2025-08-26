@@ -1,26 +1,44 @@
+import { useState } from "react";
+import CommingSoon from "./CommingSoon";  // import ComingSoon component
+
 const FourthSemester = () => {
-    return (
-        <div className="first-semester">
-            <h2 className="first-sem-heading">FOURTH SEMESTER PAPER</h2>
-            <ul className="first-sem-list">
-                <li>Privacy & Security in Online Social Media</li>
-                <li>Soft Computing</li>
-                <li>Pattern Recognition</li>
-                <li>Data Analytics</li>
-                <li>Software Quality Engineering</li>
-                <li>Blockchain Architecture</li>
-                <li>Neural Network</li>
-                <li>Internet of Things</li>
-                <li>Modern Application Development</li>
-                <li>Distributed Database Systems</li>
-                <li>Mobile Computing</li>
-                <li>Computer Graphics and Animation</li>
-                <li>Natural Language Processing</li>
-                <li>Machine Learning</li>
-                <li>Quantum Computing</li>
-            </ul>
-        </div>
-    );
-}
+  const [selectedPaper, setSelectedPaper] = useState(null);
+
+  const papers = [
+    "Privacy & Security in Online Social Media",
+    "Soft Computing",
+    "Pattern Recognition",
+    "Data Analytics",
+    "Software Quality Engineering",
+    "Blockchain Architecture",
+    "Neural Network",
+    "Internet of Things",
+    "Modern Application Development",
+    "Distributed Database Systems",
+    "Mobile Computing",
+    "Computer Graphics and Animation",
+    "Natural Language Processing",
+    "Machine Learning",
+    "Quantum Computing",
+  ];
+
+  return (
+    <div className="first-semester">
+      <h2 className="first-sem-heading">FOURTH SEMESTER PAPER</h2>
+
+      {selectedPaper ? (
+        <CommingSoon /> 
+      ) : (
+        <ul className="first-sem-list">
+          {papers.map((paper, index) => (
+            <li key={index} onClick={() => setSelectedPaper(paper)}>
+              {paper}
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  );
+};
 
 export default FourthSemester;

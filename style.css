@@ -428,4 +428,35 @@
   }
 }
 
+/* Comming Soon  */
+.coming-soon {
+  text-align: center;
+  padding: 50px 20px;
+}
 
+.coming-soon-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.coming-soon h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.coming-soon .highlight {
+  font-size: 1.5rem;
+  color: #ff6600;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.coming-soon .message {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.coming-soon img {
+  width: 300px;
+  max-width: 100%;
+}
